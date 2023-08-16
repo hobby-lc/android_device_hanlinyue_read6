@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from virgo-perf1 device
+# Inherit from virgo_perf1 device
 $(call inherit-product, device/allwinner/virgo_perf1/device.mk)
 
 PRODUCT_DEVICE := virgo_perf1
@@ -25,4 +25,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-allwinner
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="virgo_perf1-userdebug 8.1.0 OPM1.171019.026 20230421-173251 test-keys"
 
-BUILD_FINGERPRINT := Allwinner/virgo_perf1/virgo-perf1:8.1.0/OPM1.171019.026/20230421-173251:userdebug/test-keys
+BUILD_FINGERPRINT := Allwinner/virgo_perf1/virgo_perf1:8.1.0/OPM1.171019.026/20230421-173251:userdebug/test-keys
