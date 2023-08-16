@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_virgo-perf1-user
-add_lunch_combo omni_virgo-perf1-userdebug
-add_lunch_combo omni_virgo-perf1-eng
+add_lunch_combo omni_virgo_perf1-user
+add_lunch_combo omni_virgo_perf1-userdebug
+add_lunch_combo omni_virgo_perf1-eng
