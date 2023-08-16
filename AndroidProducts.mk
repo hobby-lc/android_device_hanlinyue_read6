@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_virgo-perf1.mk
+    $(LOCAL_DIR)/omni_virgo_perf1.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_virgo-perf1-user \
-    omni_virgo-perf1-userdebug \
-    omni_virgo-perf1-eng
+    omni_virgo_perf1-user \
+    omni_virgo_perf1-userdebug \
+    omni_virgo_perf1-eng
