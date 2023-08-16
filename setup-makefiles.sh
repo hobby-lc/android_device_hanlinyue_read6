@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=virgo-perf1
+DEVICE=virgo_perf1
 VENDOR=allwinner
 
 # Load extract_utils and do some sanity checks
