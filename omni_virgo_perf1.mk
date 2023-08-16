@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from virgo-perf1 device
-$(call inherit-product, device/allwinner/virgo-perf1/device.mk)
+$(call inherit-product, device/allwinner/virgo_perf1/device.mk)
 
-PRODUCT_DEVICE := virgo-perf1
-PRODUCT_NAME := omni_virgo-perf1
+PRODUCT_DEVICE := virgo_perf1
+PRODUCT_NAME := omni_virgo_perf1
 PRODUCT_BRAND := Allwinner
 PRODUCT_MODEL := Read-6
 PRODUCT_MANUFACTURER := allwinner
