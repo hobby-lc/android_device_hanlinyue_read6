@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/allwinner/virgo-perf1
+LOCAL_PATH := device/allwinner/virgo_perf1
