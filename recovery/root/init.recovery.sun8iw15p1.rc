@@ -1,0 +1,3 @@
+on init
+    insmod /gt9xx.ko
+    insmod /sunxi-keyboard.ko
